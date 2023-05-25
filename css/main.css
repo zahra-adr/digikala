@@ -1,0 +1,43 @@
+@import url(./style.css);
+@import url(./menu.css);
+@import url(./swiper1.css);
+@import url(./swiper2.css);
+@import url(./city.css);
+@import url(./login.css);
+
+@font-face {
+    font-family: yekan;
+    src: url(../Font/Yekan.ttf);
+    font-weight: bold;
+}
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --width:1304px;
+    --height:100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: yekan;
+}
+a {
+    color: black;
+}
+li {
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+    width: 8px;
+    border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(159, 159, 159);
+    border-radius: 10px;
+}

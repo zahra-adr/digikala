@@ -1,0 +1,60 @@
+div.secondswiper {
+    width: 1250px;
+    height: 290px;
+    position: relative;
+    top: 170px;
+    background-color: #ef3d52;
+    border-radius: 15px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+div.secondswiperright {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px 10px 10px 0;
+}
+div.secondswiperleft {
+    width: 75%;
+    height: 280px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 5px;
+}
+
+.swiper1 {
+    width: 80%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#swippic>div.swiper-slide>img {
+    width: 1000px;
+    height: 220px;
+}

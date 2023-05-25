@@ -1,0 +1,204 @@
+div.menu {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: none;
+    top: 40px;
+    right: -20px;
+    background-color: rgba(0, 0, 0, 0.333);
+    background-position: left bottom;
+    z-index: 50;
+}
+#menu:hover ~ div.menu {
+    display:block;
+}
+div.submenu{
+    width: 200px;
+    height: 500px;
+    background-color: #ffffff;
+    display: block;
+    position: relative;
+    top: 0px;
+    right: 30px;
+    border-bottom-right-radius: 5px;
+    z-index: 2px;
+}
+div.submenu>ul {
+    list-style: none;
+    height: inherit;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+div.submenu>ul::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}
+div.submenu>ul::-webkit-scrollbar-thumb {
+    background-color: rgb(173, 173, 173);
+}
+div.submenu>ul>li {
+    display: block;
+    padding: 18px;
+}
+div.submenu>ul>li:hover {
+    background-color: rgba(128, 128, 128, 0.05);
+    color: crimson;
+}
+div.submenu>ul>li:hover>a{
+    color: crimson;
+}
+div.sidebar {
+    width: 1280px;
+    height: 500px;
+    background-color: #ffffff;
+    display: block;
+    position: absolute;
+    right:190px;
+    top: 0;
+    box-shadow: 1px 0 rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    border-bottom-left-radius: 5px;
+} 
+
+div.sidebar-top {
+    width: 100%;
+    height: 10%;
+    line-height: 40px;  
+}
+div.sidebar-bottom {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 60px;
+}
+div.sidebar-bottom>div.first , div.second , div.third , div.fourth {
+    width: 24%;
+    height: 100%;
+    display: inline-block;
+    padding: 20px;
+}
+div.first {
+    vertical-align: top;
+}
+div.first>ul>li>a {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    font-size:16px;
+    margin-bottom: 5px;
+    box-shadow: 1px 0 red;
+    padding-right: 10px;
+}
+div.first>ul>li>ul {
+    padding:10px 0 ;
+}
+div.first>ul>li>ul>li {
+    margin-bottom: 10px;
+}
+div.first>ul>li>ul>li>a {
+    color: grey;
+}
+div.first>ul>li>a:hover {
+    color: red;
+}
+div.first>ul>li>ul>li>a:hover {
+    color: red;
+}
+div.second {
+    vertical-align: top;
+}
+div.second>ul>li>a {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    font-size:16px;
+    margin-bottom: 5px;
+    box-shadow: 1px 0 red;
+    padding-right: 10px;
+}
+div.second>ul>li>ul {
+    padding:10px 0 ;
+}
+div.second>ul>li>ul>li {
+    margin-bottom: 10px;
+}
+div.second>ul>li>ul>li>a {
+    color: grey;
+}
+div.second>ul>li>a:hover {
+    color: red;
+}
+div.second>ul>li>ul>li>a:hover {
+    color: red;
+}
+div.third {
+    vertical-align: top;
+}
+div.third>ul>li>a {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    font-size:16px;
+    margin-bottom: 5px;
+    box-shadow: 1px 0 red;
+    padding-right: 10px;
+}
+div.third>ul>li>ul {
+    padding:10px 0 ;
+}
+div.third>ul>li>ul>li {
+    margin-bottom: 10px;
+}
+div.third>ul>li>ul>li>a {
+    color: grey;
+}
+div.third>ul>li>a:hover {
+    color: red;
+}
+div.third>ul>li>ul>li>a:hover {
+    color: red;
+}
+div.fourth {
+    vertical-align: top;
+}
+div.fourth>ul>li>a {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    line-height: 20px;
+    font-size:16px;
+    margin-bottom: 5px;
+    box-shadow: 1px 0 red;
+    padding-right: 10px;
+}
+div.fourth>ul>li>ul {
+    padding:10px 0 ;
+}
+div.fourth>ul>li>ul>li {
+    margin-bottom: 10px;
+}
+div.fourth>ul>li>ul>li>a {
+    color: grey;
+}
+div.fourth>ul>li>a:hover {
+    color: red;
+}
+div.fourth>ul>li>ul>li>a:hover {
+    color: red;
+}
+div.sidebar-1 {
+    width: 1280px;
+    height: 500px;
+    background-color: #ffffff;
+    display: none;
+    position: absolute;
+    right:190px;
+    top: 0;
+    padding: 20px;
+}
+#sub:hover > div.sidebar-1 {
+    display: block;
+}
